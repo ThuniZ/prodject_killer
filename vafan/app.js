@@ -45,11 +45,7 @@ const openKillerModal = () => {
 
 //Map all the img in the array to a div under the main img
 const killerThumbModal = () => {
-    document.getElementById("killer-thumbnail-modal").innerHTML = killers.map((murder) => `<img src="./img/${murder.killer}" onclick="openKillerModal(this.src)">`).join("")
+    document.getElementById("killer-thumbnail-modal").innerHTML = killers.map((murder) => `<img src="./img/${murder.killer}">`).join("")
     
 };
 
-const switchKiller = () => {
-
-    document.getElementById("main-killer").setAttribute("src", )
-};
